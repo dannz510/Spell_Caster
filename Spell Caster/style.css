@@ -27,7 +27,8 @@ body,
 }
 
 body {
-  font-size: clamp(20px, 4vmin, 26px);
+  /* Using clamp for more fluid scaling of base font size */
+  font-size: clamp(16px, 2.5vmin, 26px);
   line-height: 110%;
 }
 
@@ -46,16 +47,20 @@ body {
   margin: 0;
 }
 .app h1 {
-  font-size: clamp(30px, 14vmin, 130px);
+  /* Adjusted with clamp for better responsiveness */
+  font-size: clamp(40px, 10vmin, 130px);
 }
 .app h2 {
-  font-size: clamp(30px, 11vmin, 100px);
+  /* Adjusted with clamp for better responsiveness */
+  font-size: clamp(30px, 8vmin, 100px);
 }
 .app h3 {
-  font-size: clamp(24px, 6.5vmin, 60px);
+  /* Adjusted with clamp for better responsiveness */
+  font-size: clamp(24px, 5vmin, 60px);
 }
 .app h4 {
-  font-size: clamp(20px, 4vmin, 40px);
+  /* Adjusted with clamp for better responsiveness */
+  font-size: clamp(20px, 3.5vmin, 40px);
 }
 .app a,
 .app a:visited {
@@ -76,7 +81,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 80%;
+  /* Reduced font size for top bar for better fit */
+  font-size: clamp(14px, 2vmin, 18px);
   pointer-events: none;
 }
 .top-bar .left,
@@ -139,7 +145,7 @@ body {
 }
 
 .health-bar {
-  width: 260px;
+  width: clamp(150px, 25vmin, 260px); /* Clamped width */
   height: 20px;
   border: 2px solid var(--color-grey);
   background-color: var(--color-black-alpha);
@@ -175,7 +181,8 @@ body {
   margin: 0 auto;
 }
 .screens > * {
-  --pad: 5vmin;
+  /* Adjusted padding for screens for better fit on smaller devices */
+  --pad: clamp(1rem, 4vmin, 5vmin);
   position: absolute;
   inset: var(--pad);
   display: grid;
@@ -227,7 +234,8 @@ body {
   margin-bottom: 1rem;
 }
 .screens .spells .info p {
-  font-size: 20px;
+  /* Using clamp for paragraph text in spells section */
+  font-size: clamp(14px, 2.5vmin, 20px);
 }
 .screens .spells .charge-path {
   stroke-width: 6;
@@ -290,9 +298,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  /* Reduced gap for content elements */
+  gap: clamp(1rem, 3vmin, 50px);
 }
 .screens .content > *:not(:last-child) {
-  margin-bottom: clamp(20px, 5vmin, 50px);
+  /* Adjusted margin for content elements */
+  margin-bottom: clamp(1rem, 3vmin, 50px);
 }
 .screens .button-row {
   list-style: none;
@@ -300,7 +311,8 @@ body {
   padding: 0;
   display: flex;
   flex-direction: row;
-  gap: 0.7em;
+  /* Adjusted gap for button row */
+  gap: clamp(0.5em, 1.5vmin, 0.7em);
 }
 .screens button {
   --border-color: var(--color-grey);
@@ -313,8 +325,10 @@ body {
 .screens button:not(.simple, .no-style) {
   background-color: var(--color-black-alpha);
   border: 2px solid var(--border-color);
-  font-size: 30px;
-  padding: 0.2em 1.4em;
+  /* Adjusted font size for primary buttons */
+  font-size: clamp(20px, 3.5vmin, 30px);
+  /* Adjusted padding for primary buttons */
+  padding: clamp(0.5em, 1.5vmin, 0.2em) clamp(1em, 3vmin, 1.4em);
 }
 .screens button.simple {
   background-color: transparent;
@@ -323,7 +337,8 @@ body {
   text-decoration-color: var(--border-color);
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
-  font-size: 20px;
+  /* Adjusted font size for simple buttons */
+  font-size: clamp(14px, 2.5vmin, 20px);
 }
 .screens button.no-style {
   background-color: transparent;
@@ -338,6 +353,8 @@ body {
 .screens p {
   max-width: 600px;
   margin: 0;
+  /* Adjusted font size for paragraphs */
+  font-size: clamp(16px, 2.8vmin, 26px);
 }
 
 .loading-bar {
