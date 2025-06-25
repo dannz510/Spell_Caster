@@ -82,7 +82,7 @@ To set up and run this game locally, follow these steps:
 
 ## 📜 Credits
 
-* **Game Code:** Steve Gardner ([Twitter: @steeevg](https://twitter.com/steeevg))
+* **Game Code:** Dannz ([GitHub: @dannz510](https://github.com/dannz510))
 * **Room Model:** [Modular Ruins Pack](https://quaternius.com/packs/ultimatemodularruins.html) by [Quaternius](https://quaternius.com/)
 * **Skeletal Hand:** by [Jeremy Swan](https://poly.pizza/u/Jeremy%20Swan) ([Poly Pizza Link](https://poly.pizza/m/3b3VmmxXZ7S))
 * **Demon:** An edited version of [Skeleton Boy](https://poly.pizza/m/Q0ZWVssZCg) by [Polygonal Mind](https://poly.pizza/u/Polygonal%20Mind)
