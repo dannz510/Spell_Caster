@@ -6,6 +6,11 @@ A mystical 3D game where you defend a crystal from an onslaught of demons by dra
 ## 🔮 Description
 
 "Spell Caster" is an immersive web-based game where players take on the role of a Guardian tasked with protecting a powerful crystal from encroaching demons. Utilize a variety of spells, drawn by hand gestures, to vanquish your foes and survive the waves of enemies.
+<!-- Add your images here -->
+
+![Gameplay Screenshot 1](spellcaster1.png)
+
+![Gameplay Screenshot 2](spellcaster2.png)
 
 ---
 
