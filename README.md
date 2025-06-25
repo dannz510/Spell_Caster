@@ -41,8 +41,8 @@ To set up and run this game locally, follow these steps:
     Download or clone this repository to your local machine.
 
     ```bash
-    git clone [repository-url-here]
-    cd spell-caster-game
+    git clone [https://github.com/dannz510/Spell_Caster]
+    cd Spell_Caster
     ```
 
 2.  **SCSS Compilation (Important!):**
