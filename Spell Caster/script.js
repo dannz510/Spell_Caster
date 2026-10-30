@@ -36,8 +36,7 @@ gsap.registerPlugin(MotionPathPlugin, Flip);
   I am using this noise based on a demo by Richard Mattes:
   https://code.google.com/archive/p/simplexnoise/
 */
-import { SimplexNoise } from "https://cdn.skypack.dev/simplex-noise@2.4.0";
-/*
+import SimplexNoise from "https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/+esm";/*
   We'll be doing a lot of 3D with Three.js.
   This is probably the most complex part of the code,
   but I'll try to explain it as best I can.
